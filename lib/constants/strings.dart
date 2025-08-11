@@ -1,0 +1,250 @@
+abstract class AppConstants {
+  static const String appTitle = 'WELLKINS';
+  //language
+  static const String en = 'en';
+  static const String english = 'ENGLISH';
+  //country
+  static const String qatar = 'Australia';
+  //currency
+  static const String aud = 'AUD';
+  //abbrevation
+  static const String aus = 'AU';
+  //country +code
+  static const String phoneCode = '+61';
+  //app version
+  static const String androidVrsn = 'v1.0.0+17';
+  static const String iosVrsn = 'v1.0.15+23';
+  //##
+
+  static const String accountDeleted = 'account deleted successfully';
+  static const String no = 'NO';
+  static const String ok = 'Ok';
+  static const String yes = 'YES';
+  static const String sell = 'SELL';
+  static const String hold = 'HOLD';
+  static const String login = 'Login';
+  static const String signUp = 'Sign Up';
+  static const String email = 'Email';
+  static const String frgtPass = 'Forgot Password?';
+  static const String pass = 'Password';
+  static const String rememberMe = 'Remember me';
+  static const String dontHaveAcnt = 'Don’t have an account?';
+  static const String haveAcnt = 'Already have an account?';
+  static const String cnfmPass = 'Confirm Password';
+  static const String cntct = 'Contact ';
+  static const String lname = 'Last Name';
+  static const String fname = 'First Name';
+  static const String recvrPass = 'Recover Password';
+  static const String resetPass = 'Reset Password';
+  static const String success = 'Success';
+  static const String accountEmail =
+      'Enter the email address associated\n with your account';
+  static const String emailHere = 'Email address here';
+  static const String verify = 'Verify ';
+  static const String noOtp = 'If you don’t recieve the code!';
+  static const String resend = 'Resend';
+  static const String enterOtp =
+      'Please enter the 6 digit code\n sent on your email';
+  static const String getOtp = 'Get your code';
+  static const String emailVerfn = 'Email Verification';
+  static const String otpResend = 'Otp has been resend successfully';
+  static const String cntnue = 'continue';
+  static const String enterNewPass = 'Enter new password';
+  static const String profile = 'Profile';
+  static const String home = 'Home';
+  static const String switchUser = 'Switch User';
+  static const String history = 'History';
+  static const String txReport = 'Tax Return Statement';
+  static const String settings = 'Settings';
+  static const String projects = 'Projects';
+  static const String voting = 'Voting';
+  static const String wishlist = 'Wishlist';
+  static const String dashboard = 'Dashboard';
+  static const String myInvestments = 'My Investments';
+  static const String orderID = 'Order ID: ';
+  static const String oldPass = 'Old Password';
+  static const String newPass = 'New Password';
+  static const String propertyFund = 'Property Fund';
+  static const String mortgageFund = 'Mortgage Fund';
+  static const String propertyFunds = 'Property Funds';
+  static const String invRow = 'Investments: ';
+  static const String investments = 'Investments';
+  static const String mortgageFunds = 'Mortgage Funds';
+  static const String landDevelopment = 'Land Development';
+  static const String landBanking = 'Land Banking';
+  static const String rental = 'Rental';
+  static const String rentalYeilds = 'Rental Yeilds';
+  static const String totalInvestment = 'Total Investment';
+  static const String investedLocations = 'Invested Locations';
+  static const String popularity = 'Popularity';
+  static const String popularityAndFunds = 'Popularity & Funds';
+  static const String poolFund = 'Pool Fund';
+  static const String funding = 'Funding';
+  static const String funds = 'Funds';
+  static const String totalFunding = 'Total Funding';
+  static const String viewDetails = 'View Details';
+  static const String totalInvestments = 'Total Investments: ';
+  static const String totalInvest = 'Total Invest: ';
+  static const String totalApplications = 'Total Applications: ';
+  static const String investmentAmount = 'Investment Amount: ';
+  static const String settlementDate = 'Settlement Date: ';
+  static const String returns = 'Returns: ';
+  static const String returnsHd = 'Returns';
+  static const String maturityDate = 'Maturity Date: ';
+  static const String repaymentDate = 'Repayment Date: ';
+  static const String monthlyIncome = 'Monthly Income: ';
+  static const String fundingUpdate = 'Funding Update';
+  static const String trendingNews = 'Trending News';
+  static const String image = 'Image';
+  static const String addToWishlist = 'Add to Wishlist';
+  static const String removeItem = 'Remove Item';
+  static const String viewWishlist = 'View Wishlist';
+  static const String term = 'Term: ';
+  static const String value = 'Value: ';
+  static const String loremIpsum =
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis finibus fringilla. Morbi sed dui nisi. Aliquam scelerisque, elit egestas ullamcorper cursus, ipsum lectus vehicula ex,';
+  static const String thankYou = 'THANK YOU!';
+  static const String loanAmount = 'Loan Amount: ';
+  static const String lvr = 'LVR: ';
+  static const String returnLabel = 'Return: ';
+  static const String viewPDS = 'Click here to view PDS';
+  static const String viewSPDS = 'Click here to view SPDS';
+  static const String viewAnd = 'Click here to view and ';
+  static const String dTDM = 'download the TDM';
+  static const String dFSG = 'download the FSG';
+  static const String fundBrochure = 'Fund brochure';
+  static const String numberOfAppln = 'No. of\nApplications';
+  static const String name = 'Name';
+  static const String save = 'Save';
+  static const String monthsQuarterly = 'Months(Quarterly)';
+  static const String inMillion = 'In Millions';
+  static const String currentYear = 'Current Year ';
+  static const String previousYear = 'Previous Year';
+  static const String investmentType = 'Investment Type: ';
+  static const String status = 'Status: ';
+  static const String propertyType = 'Property Type: ';
+  static const String noNoti = 'No notifications';
+  static const String noti = 'Notifications';
+  static const String chngCred = 'Change Credentials ';
+  static const String chngPass = 'Change Password';
+  static const String remove = 'Remove';
+  static const String note = 'Note: ';
+  static const String goBack = 'Go Back';
+  static const String voteResponce = 'Your vote has been\nregistered';
+  static const String unitToInvest = 'No of units you want to invest';
+  static const String amountInvested = 'Total amount invested';
+  static const String close = 'Close';
+  static const String submit = 'Submit';
+  static const String logout = 'Logout';
+  static const String noChanges = 'No changes to save';
+  static const String investDeclaration =
+      'I confirm my intention to invest in the Fund and confirm that I have viewed and downloaded the PDS, SPDS, TMD and FSG before investing in the Fund';
+  static const String months = 'Months';
+  static const String returnsPercentage = 'Returns Percentage:';
+  static const String paidStatus = 'Paid Status';
+  static const String investingAmount = 'Investing Amount';
+  static const String holderType = 'Holder Type';
+  static const String amountPaid = 'Amount Paid';
+  static const String amountUnpaid = 'Amount Unpaid';
+  static const String orderId = 'Order ID';
+  static const String orderCreateDate = 'Order Create Date';
+  static const String paymentDoneDate = 'Payment Done Date';
+  static const String propertyName = 'Property Name';
+  static const String fullName = 'Full Name';
+  static const String clientEmail = 'Client Email';
+  static const String bsb = 'BSB';
+  static const String accountName = 'Account Name';
+  static const String isForeignTax = 'Is Foreign Tax';
+  static const String isForeignTaxN = 'Is Foreign Tax N';
+  static const String accountNumber = 'Account Number';
+  static const String isForeignTaxTin = 'Is Foreign Tax Tin';
+  static const String isForeignTaxCountry = 'Is Foreign Tax Country';
+  static const String incomeDistributions = 'Income Distributions';
+  static const String financialInstitution = 'Financial Institution';
+  static const String paymentDate = 'Payment Date';
+  static const String month = 'Month';
+  static const String joinDraw = 'Join Lucky Draw';
+  static const String joinedContest = 'You have joined lucky draw';
+  static const String date = 'Date';
+  static const String amount = 'Amount';
+  static const String monthlyReturns = 'Monthly Returns:';
+  static const String details = 'Details';
+  static const String descp = 'Description';
+  static const String noData = 'No data available';
+  static const String noWish = 'No items in wishlist';
+  static const String glry = 'Gallery';
+  static const String cmra = 'Camera';
+  static const String trns = 'Transactions';
+  static const String dbt = 'Debit';
+  static const String crdt = 'Credit';
+  static const String blnc = 'Balance';
+  static const String sessionTimedOut = 'session timed out';
+  static const String next = 'Next';
+  static const String state = 'State/Territory';
+  static const String invCap = 'Investment Capacity';
+  static const String newsInsights = 'News & Insights';
+  static const String download = 'download';
+  static const String alreadyDownloaded = 'file exists in your downloads';
+  static const String fileDownloaded = 'file saved to your downloads folder';
+  static const String alreadyDownloadedIos = 'file exists in your device';
+  static const String fileDownloadedIos = 'file saved to your device';
+  static const String minInv = 'Minimum Investment';
+  static const String unitCert = 'Unit Certificate';
+  static const String termsPayment = 'Terms of Payment';
+  static const String pricePer = 'Price Per Unit : ';
+  static const String visitWeb = 'Visit Website';
+  static const String prDocs = 'Preview Documents';
+  static const String upDocs = 'Upload Documents';
+  static const String noVote = 'Voting is currently unavailable';
+  static const String browse = 'Browse Files';
+  static const String comments = 'Comments';
+  static const String changeFile = 'Change File';
+  static const String urReceipts = 'Your Receipts';
+  static const String weBetter = 'We\'re better then ever';
+  static const String pleaseUpdate = 'Please update the app to latest version';
+  static const String update = 'UPDATE';
+  static const String gnFiles = 'Preview General Files';
+  static const String below2Mb = 'Please upload file below 2 MB';
+  static const String maxSize = 'Maximum upload size : 2 MB';
+  static const String from = 'From';
+  static const String to = 'To';
+  static const String clsOfUnits = 'Class of Units';
+  static const String finclYear = 'Financial Year';
+  static const String dtRange = 'Date Range';
+  static const String year = 'Year';
+  static const String chooseOption = 'Select an option';
+  static const String selectDate = 'Select a date';
+
+  //validator
+  static const String phoneError = 'Please enter your phone number';
+  static const String phoneRegError = 'Please enter a valid phone number';
+  static const String nameError = 'Please enter your name';
+  static const String nameRegError = 'Please enter a valid name';
+  static const String emailError = 'Please enter your email address';
+  static const String emailRegError = 'Please enter a valid email address';
+  static const String passError = 'Please enter your password';
+  static const String passRegError =
+      'Password must contain at least 8 characters';
+  // static const String passRegError =
+  //     'Password must contain at least 8 characters, including digits, special characters, and a combination of uppercase and lowercase letters';
+  static const String cnfmPassError = 'Please confirm your password';
+  static const String passMissmatch = 'Password Mismatch!';
+  static const String emptyError =
+      'Please complete this field with relevant data';
+  static const String stateError = 'please enter your state/territory name';
+  static const String stateRegError = 'invalid state/territory name';
+  static const String invError = 'please enter your investment capacity';
+  static const String invRegError = 'invalid investment amount';
+  //long text//
+  static const String invResponce =
+      'We kindly request that you visit our website and complete the form submission at the earliest.';
+  static const String newPassInfo =
+      'Yor new password must be different\n from previously used password';
+  static const String checkFaqsForSwiftSolutions =
+      'Check FAQs for swift solutions';
+  static const String noInternet = 'Please check your internet\nconnection';
+  static const String error = 'Something went wrong,\nplease try again';
+  static const String dateError =
+      'Invalid date range! Ensure it fits in the financial year';
+  static const String pleaseChoose = 'Please select an option';
+}
