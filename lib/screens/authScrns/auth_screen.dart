@@ -6,9 +6,12 @@ import 'package:wellkins/constants/strings.dart';
 import 'package:wellkins/widgets/backgrounds.dart';
 
 import '../../constants/paths.dart';
+import '../../utils/transitions_util.dart';
 import '../../widgets/image_widget.dart';
 import '../../widgets/spacers.dart';
 import 'components/auth_widgets.dart';
+import 'components/sign_in.dart';
+import 'sign_up.dart';
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
@@ -48,10 +51,10 @@ class AuthScreen extends StatelessWidget {
                       title: AppConstants.login,
                       context: context,
                       onTap: () {
-                        // Navigator.push(
-                        //   context,
-                        //   FadeRoute(page: const LoginScreen()),
-                        // );
+                        Navigator.push(
+                          context,
+                          FadeRoute(page: const LoginScreen()),
+                        );
                       },
                     ),
                     Spacers.sb20(),
@@ -60,10 +63,10 @@ class AuthScreen extends StatelessWidget {
                       leftShade: false,
                       context: context,
                       onTap: () {
-                        // Navigator.push(
-                        //   context,
-                        //   FadeRoute(page: const SignupScreen()),
-                        // );
+                        Navigator.push(
+                          context,
+                          FadeRoute(page: const SignupScreen()),
+                        );
                       },
                     ),
                     SizedBox(height: 70.h),

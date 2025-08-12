@@ -2,6 +2,7 @@ import 'package:delayed_display/delayed_display.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../bottomNav/bottom_nav_bar.dart';
 import '../../constants/paths.dart';
 // import '../../services/helpers.dart';
 // import '../../services/session_timeout.dart';
@@ -46,8 +47,11 @@ class _SplashScreenState extends State<SplashScreen> {
   //   });
   // }
 
-  // void _navToHome() => Navigator.pushAndRemoveUntil(context,
-  //     FadeRoute(page: const BottomNavBar(pageNum: 0)), (route) => false);
+  void _navToHome() => Navigator.pushAndRemoveUntil(
+    context,
+    FadeRoute(page: const BottomNavBar(pageNum: 0)),
+    (route) => false,
+  );
 
   void _navToAuth() =>
       Navigator.pushReplacement(context, FadeRoute(page: const AuthScreen()));
