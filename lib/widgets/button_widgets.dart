@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wellkins/widgets/spacers.dart';
-
 import '../constants/colors.dart';
 import 'text_widget.dart';
 

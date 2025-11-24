@@ -25,19 +25,10 @@ class PdfIcons {
   static const _kFontFam = 'PdfIcons';
   static const String? _kFontPkg = null;
 
-  static const IconData contact = IconData(
-    0xe800,
-    fontFamily: _kFontFam,
-    fontPackage: _kFontPkg,
-  );
-  static const IconData global = IconData(
-    0xe801,
-    fontFamily: _kFontFam,
-    fontPackage: _kFontPkg,
-  );
-  static const IconData mapMarker = IconData(
-    0xe833,
-    fontFamily: _kFontFam,
-    fontPackage: _kFontPkg,
-  );
+  static const IconData contact =
+      IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData global =
+      IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData mapMarker =
+      IconData(0xe833, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }

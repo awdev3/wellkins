@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:wellkins/screens/mainScrns/splash.dart';
 import 'package:wellkins/services/navigation_service.dart';
 
 import 'constants/strings.dart';
-import 'screens/mainScrns/splash.dart';
 import 'utils/system_chromes.dart';
 
 class MyApp extends StatelessWidget {

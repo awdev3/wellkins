@@ -54,10 +54,10 @@ extension StringExtension on String {
     if (isEmpty) {
       return this;
     }
-    return replaceAll(
-      RegExp(' +'),
-      ' ',
-    ).split(' ').map((str) => str.capitalize).join(' ');
+    return replaceAll(RegExp(' +'), ' ')
+        .split(' ')
+        .map((str) => str.capitalize)
+        .join(' ');
   }
 
   String get removeSpaces {
@@ -108,8 +108,7 @@ class CommaSeparatedFormatter extends TextInputFormatter {
 
       _formatIntegerPart(integerPart, parts);
       parts.add(
-        decimalPart.length > 2 ? decimalPart.substring(0, 3) : decimalPart,
-      );
+          decimalPart.length > 2 ? decimalPart.substring(0, 3) : decimalPart);
 
       return parts.join('');
     } else {
@@ -139,6 +138,7 @@ extension UriExtensions on Uri {
     return url.split('.').last;
   }
 }
+
 
 //# without decimal points
 

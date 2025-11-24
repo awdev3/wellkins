@@ -10,6 +10,12 @@ abstract class Paths {
   static const String pdfPrv = 'assets/images/pdf_preview.png';
   static const String imgPrv = 'assets/images/image_preview.png';
   static const String upload = 'assets/images/upload.png';
+  static const String splashBG = 'assets/images/glow.jpg';
+  static const String logoOne = 'assets/images/17.png';
+  static const String logoTwo = 'assets/images/19.png';
+  static const String logoThree = 'assets/images/Elorah 8.png';
+  static const String logoFour = 'assets/images/9.png';
+  static const String profile = 'assets/images/profile.png';
   // static const String noInternet = 'assets/images/no-internet.png';
   // static const String oops = 'assets/images/oops.png';
   // ## urls

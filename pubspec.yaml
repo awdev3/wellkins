@@ -35,16 +35,31 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  pdf: ^3.11.3
+  http: ^1.5.0
   intl: ^0.20.2
+  badges: ^3.1.2
+  fl_chart: ^1.0.0
   provider: ^6.1.5
-  flutter_svg: ^2.2.0
+  signature: ^6.3.0
+  jwt_decoder: ^2.0.1
+  file_picker: ^10.3.1
+  url_launcher: ^6.3.2
   google_fonts: ^6.3.0
+  image_picker: ^1.2.0
   fluttertoast: ^8.2.12
+  path_provider: ^2.1.5
+  webview_flutter: ^4.13.0
+  flutter_pdfview: ^1.4.1+1
+  flutter_screenutil: ^5.9.3
+  flutter_secure_storage: ^9.2.4
+  flutter_widget_from_html: ^0.17.0
+
   flutter_animate: ^4.5.2
   delayed_display: ^2.0.0
-  flutter_screenutil: ^5.9.3
+
+  flutter_svg: ^2.2.0
   cached_network_image: ^3.4.1
-  flutter_secure_storage: ^9.2.4
   
 dev_dependencies:
   flutter_test:
@@ -56,6 +71,20 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.6
+
+flutter_native_splash:
+  # color: "#FFFFFF"
+  background_image: assets/images/bg.png
+  # image: assets/images/splash-logo.png 
+  fullscreen: true
+
+  android_12:
+    image: assets/images/trpng.png 
+    color: "#FFFFFF"
+    fullscreen: true
+    # App icon background color.
+    #icon_background_color: "#111111"     
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

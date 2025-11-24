@@ -39,16 +39,15 @@
 
 //     await localNotiPlugin
 //         .resolvePlatformSpecificImplementation<
-//           AndroidFlutterLocalNotificationsPlugin
-//         >()
+//             AndroidFlutterLocalNotificationsPlugin>()
 //         ?.createNotificationChannel(channel);
 
 //     await FirebaseMessaging.instance
 //         .setForegroundNotificationPresentationOptions(
-//           alert: true,
-//           badge: true,
-//           sound: true,
-//         );
+//       alert: true,
+//       badge: true,
+//       sound: true,
+//     );
 
 //     getIosPermission();
 
@@ -96,7 +95,7 @@
 //               ),
 //               iOS: DarwinNotificationDetails(
 //                 attachments: <DarwinNotificationAttachment>[
-//                   DarwinNotificationAttachment(imgPath),
+//                   DarwinNotificationAttachment(imgPath)
 //                 ],
 //               ),
 //             ),
@@ -124,9 +123,8 @@
 //       }
 //     });
 
-//     const initSettingsAndroid = AndroidInitializationSettings(
-//       '@mipmap/ic_launcher',
-//     );
+//     const initSettingsAndroid =
+//         AndroidInitializationSettings('@mipmap/ic_launcher');
 
 //     const initSettingsDarwin = DarwinInitializationSettings(
 //       requestSoundPermission: false,
@@ -147,16 +145,16 @@
 //   }
 
 //   Future<void> getIosPermission() async {
-//     NotificationSettings settings = await FirebaseMessaging.instance
-//         .requestPermission(
-//           alert: true,
-//           announcement: false,
-//           badge: true,
-//           carPlay: false,
-//           criticalAlert: false,
-//           provisional: false,
-//           sound: true,
-//         );
+//     NotificationSettings settings =
+//         await FirebaseMessaging.instance.requestPermission(
+//       alert: true,
+//       announcement: false,
+//       badge: true,
+//       carPlay: false,
+//       criticalAlert: false,
+//       provisional: false,
+//       sound: true,
+//     );
 //     printData(data: 'User granted permission: ${settings.authorizationStatus}');
 //   }
 

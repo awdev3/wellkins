@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-// import 'package:provider/provider.dart';
+import 'package:provider/provider.dart';
 
-// import '../providers/auth_provider.dart';
+import '../providers/auth_provider.dart';
 import 'wave.dart';
 
 Widget showLoader({
@@ -31,12 +31,12 @@ Widget fullLoaderblack = Container(
   child: showLoader(),
 );
 
-// Widget authLoader(context) {
-//   return Selector<AuthProvider, bool>(
-//     selector: (_, snapshot) => snapshot.authLoad,
-//     builder: buildLoader,
-//   );
-// } //TODO uncommend when integrating provider
+Widget authLoader(context) {
+  return Selector<AuthProvider, bool>(
+    selector: (_, snapshot) => snapshot.authLoad,
+    builder: buildLoader,
+  );
+}
 
 Widget buildLoader(context, loading, child) {
   return loading ? fullLoaderWhite : const SizedBox();

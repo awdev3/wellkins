@@ -6,9 +6,8 @@ class Regx {
   static final addressRegExp = RegExp(r'^[a-zA-Z0-9\s.,-]*$');
   // ensures 0 can be added at front
   static final nineDigitRegExp = RegExp(r'^(?:[1-9]\d{8}|0\d{9})$');
-  static final oldEmailRegExp = RegExp(
-    r'^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$',
-  );
+  static final oldEmailRegExp =
+      RegExp(r'^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$');
   static final passwordRegExp = RegExp(r'.{8,}');
   static final doubleRegExp = RegExp(r'^\d+(\.\d+)?$');
   static final double2RegExp = RegExp(r'^\d+\.?\d{0,2}');

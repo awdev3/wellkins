@@ -26,7 +26,9 @@ class DottedLine extends StatelessWidget {
             return SizedBox(
               width: dashWidth,
               height: dashHeight,
-              child: DecoratedBox(decoration: BoxDecoration(color: color)),
+              child: DecoratedBox(
+                decoration: BoxDecoration(color: color),
+              ),
             );
           }),
         );

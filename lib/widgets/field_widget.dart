@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wellkins/utils/extensions.dart';
-
 import '../constants/colors.dart';
 import '../utils/textstyle_util.dart';
 import 'text_widget.dart';
@@ -184,7 +183,9 @@ class CustomDropdownField extends StatelessWidget {
   final Widget? icon;
   final bool outlined;
   final String? errorText;
+  final TextStyle? errorStyle;
   final bool autoValidate;
+  final bool isExpanded;
 
   const CustomDropdownField({
     super.key,
@@ -194,8 +195,10 @@ class CustomDropdownField extends StatelessWidget {
     this.hint,
     this.icon,
     this.errorText,
+    this.errorStyle,
     this.outlined = true,
     this.autoValidate = true,
+    this.isExpanded = true,
   });
 
   @override
@@ -203,8 +206,10 @@ class CustomDropdownField extends StatelessWidget {
     return ButtonTheme(
       alignedDropdown: true,
       child: DropdownButtonFormField<String>(
-        value: value,
+        // value: value,
+        initialValue: value,
         onChanged: onChanged,
+        isExpanded: isExpanded,
         icon: icon,
         hint: hint,
         iconSize: 24.sp,
@@ -215,6 +220,7 @@ class CustomDropdownField extends StatelessWidget {
         style: TextStyleData.formHintStyle.copyWith(
           color: ColorsData.blackColor,
         ),
+        borderRadius: BorderRadius.circular(10.r),
         decoration: InputDecoration(
           filled: true,
           fillColor: ColorsData.whiteColor,
@@ -228,6 +234,7 @@ class CustomDropdownField extends StatelessWidget {
           errorBorder: _fieldBorder(color: Colors.red),
           focusedErrorBorder: _fieldBorder(color: Colors.red),
           disabledBorder: _fieldBorder(color: ColorsData.primaryColor),
+          errorStyle: errorStyle ?? TextStyleData.formErrorStyle,
         ),
         items: items.map((item) {
           return DropdownMenuItem<String>(

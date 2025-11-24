@@ -2,7 +2,7 @@
 
 // import 'package:cloud_firestore/cloud_firestore.dart';
 
-// import '../screens/mainScrns/force_update_screen.dart';
+// import '../screens/screens/mainScrns/force_update_screen.dart';
 // import '../utils/console_util.dart';
 // import '../widgets/custom_prompts.dart';
 
